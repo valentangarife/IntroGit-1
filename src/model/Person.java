@@ -14,6 +14,11 @@ public class Person {
     this.name = name1; 
     
   }
+  
+  // Método -> Visivilidad, El tipo de retorno, Nombre del Método
+  public String getName(){
+    return this.name;
+  }
 
   
 }
