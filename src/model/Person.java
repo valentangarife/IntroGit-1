@@ -1,3 +1,9 @@
 package model; 
 
-public class Person {}
+public class Person {
+
+  // Declarar una variable
+  private int age;
+
+  
+}
