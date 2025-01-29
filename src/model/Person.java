@@ -7,6 +7,9 @@ public class Person {
   // Declarar una variable
   // Atributo de la Clase
   private int age;
+  
+  // Atributo -> Variable ->
+  // Visivilidad , Tipo de dato, nombreVariable
   private String name;
   private double weight; 
   private double height; 
@@ -26,6 +29,10 @@ public class Person {
   public String getName(){
     return this.name;
   }
+  
+  public void setName(String name_){
+  	this.name = name_; 
+  }
 
   public String getImc(){
     String msj = "El IMC de la persona es: " + (weight/Math.pow(height, 2));
@@ -34,6 +41,10 @@ public class Person {
   
   public String getImc(double w, double h){
     return "IMC: " + (w / Math.pow(h,2) );
+  }
+  
+  public String toString(){
+  	return "Name: " + this.name + " Age: " + this.age; 
   }
   
 }
